@@ -1,5 +1,5 @@
 {
-  "name": "nodePrac5",
+  "name": "Blog-Heroku",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,6 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "12.18.3"
+  },
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1",
