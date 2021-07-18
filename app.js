@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 const dbURI =
-  "mongodb+srv://admin-devin:CoreChewzz@myownblogcluster.2e7gf.mongodb.net/my-own-blog-db?retryWrites=true&w=majority";
+  "mongodb+srv";
 
 mongoose
   .connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
