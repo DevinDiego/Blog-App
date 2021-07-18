@@ -1,0 +1,51 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  margin-left: 15%;
+}
+
+footer {
+  margin: 4% 0;
+  text-align: center;
+}
+
+.navbar {
+  font-size: 1.2rem;
+  margin-bottom: 4%;
+}
+
+.form-floating {
+  margin: 4% 15%;
+}
+
+.list-group-item,
+.form-control {
+  display: block;
+  margin: 15px 0;
+  padding-left: 30px;
+  border-left: 6px solid #ff000080;
+}
+
+.list-group-item a {
+  float: right;
+}
+
+.list-group-item a:hover {
+  color: #ff000090;
+}
+
+.delete {
+  background-color: #5454d8;
+  border: 1px solid #383838;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.delete:hover {
+  color: #fff;
+  background-color: #5454d890;
+}

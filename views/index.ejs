@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/header'); -%>
+  <body>
+    <!-- Page title-->
+    <%- include('./partials/nav'); -%>
+    <h3>Blog List</h3>
+
+    <!-- Blog List group-->
+    <div class="form-floating mb-3">
+      <ul class="list-group">
+        <% blogs.forEach((blog)=>{ %>
+        <li class="list-group-item">
+          <h5><%=blog.title%></h5>
+          <p>
+            <%=blog.content.substring(0, 80) + " ... "%><a
+              href="/details/<%=blog._id%>"
+              >Read More</a
+            >
+          </p>
+        </li>
+        <% }); %>
+      </ul>
+    </div>
+    <%- include('./partials/footer'); -%>
+  </body>
+</html>
