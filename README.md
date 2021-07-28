@@ -1,9 +1,3 @@
 # Blog-App
-Node
-Express
-EJS
-mongoose
-heroku
-html
-css
-javaScript
+#### Node | Express | EJS | mongoose | MongoDB | heroku | HTML | CSS | JavaScript
+#### https://mysterious-sands-03136.herokuapp.com/
